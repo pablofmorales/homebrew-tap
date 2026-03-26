@@ -1,10 +1,10 @@
 class Icf < Formula
   desc "Incident Command Framework — manage incidents via GitHub Issues from your terminal"
   homepage "https://github.com/BlackAsteroid/icf"
-  url "https://registry.npmjs.org/@blackasteroid/icf/-/icf-1.3.0.tgz"
-  sha256 "295d03841dec72ebb3b01ffe2aed56ff432ed743468fabf1db1a4ec56f0aba64"
+  url "https://registry.npmjs.org/@blackasteroid/icf/-/icf-1.2.3.tgz"
+  sha256 "28d898c787cf449cc073eb41f56bedbaf2d643401a6f74b66999ae48ec571ef4"
   license "MIT"
-  version "1.3.0"
+  version "1.2.3"
 
   depends_on "node"
 
