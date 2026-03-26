@@ -12,20 +12,29 @@ brew tap BlackAsteroid/tap
 
 | Formula | Description | npm package |
 |---------|-------------|-------------|
+| `mac-cleaner` | Fast, safe CLI for cleaning macOS development caches | `@blackasteroid/mac-cleaner-cli` |
 | `kuma-cli` | CLI for managing [Uptime Kuma](https://github.com/louislam/uptime-kuma) | `@blackasteroid/kuma-cli` |
 | `icf` | Incident Command Framework — manage incidents via GitHub Issues | `@blackasteroid/icf` |
 
 ## Install
 
 ```bash
-# Install both
-brew install BlackAsteroid/tap/kuma-cli BlackAsteroid/tap/icf
+# Install all
+brew install BlackAsteroid/tap/mac-cleaner BlackAsteroid/tap/kuma-cli BlackAsteroid/tap/icf
 
 # Or if tap is already added:
-brew install kuma-cli icf
+brew install mac-cleaner kuma-cli icf
 ```
 
 ## Usage
+
+### mac-cleaner
+
+```bash
+mac-cleaner all --dry-run    # Preview what would be cleaned
+mac-cleaner all              # Clean everything
+mac-cleaner system           # Just system caches and logs
+```
 
 ### kuma-cli
 
@@ -47,5 +56,5 @@ icf incident create --severity P1 --service api --title "Latency spike"
 Formulae are automatically updated when a new release is published. To update manually:
 
 ```bash
-brew update && brew upgrade kuma-cli icf
+brew update && brew upgrade mac-cleaner kuma-cli icf
 ```
