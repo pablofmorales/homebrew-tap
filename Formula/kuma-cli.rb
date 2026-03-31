@@ -1,10 +1,10 @@
 class KumaCli < Formula
   desc "CLI for managing Uptime Kuma via its native Socket.IO API"
   homepage "https://github.com/pablofmorales/kuma-cli"
-  url "https://registry.npmjs.org/@pablofmorales/kuma-cli/-/kuma-cli-1.5.1.tgz"
-  sha256 "d77f9fcc2f938443f50ea23e434682f8d0ffc7dba1378db69237946281d36d88"
+  url "https://registry.npmjs.org/@blackasteroid/kuma-cli/-/kuma-cli-1.5.2.tgz"
+  sha256 "d245fbc6b445d1d7859d68f3ad0ead2d382125664ff156b6a9578fe3c8ebc26c"
   license "MIT"
-  version "1.5.1"
+  version "1.5.2"
 
   depends_on "node"
 
