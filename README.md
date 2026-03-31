@@ -1,26 +1,26 @@
-# BlackAsteroid Homebrew Tap
+# pablofmorales Homebrew Tap
 
-Official [Homebrew](https://brew.sh) tap for [Black Asteroid](https://github.com/BlackAsteroid) CLI tools.
+Official [Homebrew](https://brew.sh) tap for [pablofmorales](https://github.com/pablofmorales) CLI tools.
 
 ## Setup
 
 ```bash
-brew tap BlackAsteroid/tap
+brew tap pablofmorales/tap
 ```
 
 ## Available Formulae
 
 | Formula | Description | npm package |
 |---------|-------------|-------------|
-| `mac-cleaner` | Fast, safe CLI for cleaning macOS development caches | `@blackasteroid/mac-cleaner-cli` |
-| `kuma-cli` | CLI for managing [Uptime Kuma](https://github.com/louislam/uptime-kuma) | `@blackasteroid/kuma-cli` |
-| `icf` | Incident Command Framework — manage incidents via GitHub Issues | `@blackasteroid/icf` |
+| `mac-cleaner` | Fast, safe CLI for cleaning macOS development caches | `@pablofmorales/mac-cleaner-cli` |
+| `kuma-cli` | CLI for managing [Uptime Kuma](https://github.com/louislam/uptime-kuma) | `@pablofmorales/kuma-cli` |
+| `icf` | Incident Command Framework — manage incidents via GitHub Issues | `@pablofmorales/icf` |
 
 ## Install
 
 ```bash
 # Install all
-brew install BlackAsteroid/tap/mac-cleaner BlackAsteroid/tap/kuma-cli BlackAsteroid/tap/icf
+brew install pablofmorales/tap/mac-cleaner pablofmorales/tap/kuma-cli pablofmorales/tap/icf
 
 # Or if tap is already added:
 brew install mac-cleaner kuma-cli icf
