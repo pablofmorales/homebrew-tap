@@ -12,9 +12,9 @@ brew tap pablofmorales/tap
 
 | Formula | Description | npm package |
 |---------|-------------|-------------|
-| `mac-cleaner` | Fast, safe CLI for cleaning macOS development caches | `@pablofmorales/mac-cleaner-cli` |
-| `kuma-cli` | CLI for managing [Uptime Kuma](https://github.com/louislam/uptime-kuma) | `@pablofmorales/kuma-cli` |
-| `icf` | Incident Command Framework — manage incidents via GitHub Issues | `@pablofmorales/icf` |
+| `mac-cleaner` | Fast, safe CLI for cleaning macOS development caches | `@blackasteroid/mac-cleaner-cli` |
+| `kuma-cli` | CLI for managing [Uptime Kuma](https://github.com/louislam/uptime-kuma) | `@blackasteroid/kuma-cli` |
+| `icf` | Incident Command Framework — manage incidents via GitHub Issues | `@blackasteroid/icf` |
 
 ## Install
 
